@@ -1,0 +1,28 @@
+.sub {
+    width: 20px;
+    height: 20px;
+    margin: .5px;
+    background-color: black;
+    flex-shrink: 0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 340px;
+    margin-top: 250px;
+}
+
+.butt {
+    position: absolute;
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    margin: 50px;
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+  }
